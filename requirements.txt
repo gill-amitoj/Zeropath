@@ -1,0 +1,11 @@
+pandas>=2.2
+numpy>=1.26
+requests>=2.31
+duckdb>=1.1
+plotly>=5.20
+pyarrow>=15.0
+python-dotenv>=1.0
+pytest>=8.0
+
+# Optional: BigQuery loading
+google-cloud-bigquery>=3.20
