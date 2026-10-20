@@ -10,7 +10,7 @@ happening, and *how severely* people are hurt. Data quality is documented and te
 |---|---|
 | Data | 3 City of Edmonton datasets, 19,120 raw rows, 100% retained after cleaning, all 9 validation checks passing |
 | SQL | 12 KPI views, written once and run on both DuckDB and BigQuery |
-| Outputs | Interactive Plotly dashboard, 12 Tableau-ready extracts, a plain-language findings brief for managers |
+| Outputs | [Published Tableau Public dashboard](https://public.tableau.com/app/profile/amitoj.singh4528/viz/ZeroPathEdmontonTrafficSafetyAnalytics/ZeroPathEdmontonTrafficSafetyAnalytics), interactive Plotly dashboard, 12 Tableau-ready extracts, a plain-language findings brief for managers |
 | Quality | 90 offline pytest tests; CI on every push; scheduled weekly refresh |
 
 **Headline findings** (details in [reports/findings_brief.md](reports/findings_brief.md)):
@@ -170,8 +170,8 @@ location rankings, vulnerable road users and severity mix. It follows the OS lig
 ![Chronic hotspots](docs/screenshots/locations.png)
 ![Vulnerable road users and severity mix](docs/screenshots/road_users_severity_mix.png)
 
-**Tableau Public:** extracts are in [tableau/](tableau/), and [tableau/BUILD_GUIDE.md](tableau/BUILD_GUIDE.md) maps each
-extract to a chart. *Tableau Public link: to be added once published.*
+**Tableau Public:** [ZeroPath: Edmonton Traffic Safety Analytics](https://public.tableau.com/app/profile/amitoj.singh4528/viz/ZeroPathEdmontonTrafficSafetyAnalytics/ZeroPathEdmontonTrafficSafetyAnalytics). It's built from the extracts in
+[tableau/](tableau/), and [tableau/BUILD_GUIDE.md](tableau/BUILD_GUIDE.md) maps each extract to a chart.
 
 ## Run it locally
 
